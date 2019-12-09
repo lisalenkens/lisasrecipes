@@ -25,7 +25,7 @@
   
  <body>
     <nav class="navbar fixed-top navbar-expand-md bg-dark navbar-dark">
-      <a class="navbar-brand" href="#"><img src="imgs/thyme.png" class="brandimage"> Lisa's Recipes </a>
+      <a class="navbar-brand" href="index.html"><img src="imgs/thyme.png" class="brandimage"> Lisa's Recipes </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
          <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,16 +33,16 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="nav navbar-nav">
           <li class="nav-item">
-              <a class="nav-link" href="RecipesHome.html"> Home </a>
+              <a class="nav-link" href="index.html"> Home </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="RecipesHome.html#LatestRecipes"> Latest Recipes </a>
+                <a class="nav-link" href="index.html#LatestRecipes"> Latest Recipes </a>
               </li>
             <li class="nav-item">
           <a class="nav-link active" href="Recipes.html"> All Recipes </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="RecipesHome.html#Aboutme"> About </a>
+          <a class="nav-link" href="index.html#Aboutme"> About </a>
         </li>
         </ul>
         <div class="search-container">
@@ -104,6 +104,18 @@
 
 <div class="container" id="container1">
 <div class="row mt-3">
+
+    <div class="recipe-block col-lg-4" id="chili"><a class="recipe-link" href="chilisincarne.html">
+        <img class="img-thumbnail chili" width="300" src="imgs/chili.jpg" alt="Chili sin carne" width="200px" height="200px">
+        <h2>Chili Sin Carne</h2>
+        <ul class="recipe-details">
+            <li class="recipe-details-item time"><i class="far fa-clock cookingdetails"></i><span class="value">50</span><span class="detailstitle">Minutes</span></li>
+            <li class="recipe-details-item servings"><i class="fas fa-user-friends cookingdetails"></i><span class="value">4</span><span class="detailstitle">Serving</span></li>
+        </ul>
+        <p class="recipetext">No meat in this chili... With sweet potato, onion, kidney beans and corn....</p>
+        </a>
+        </div>
+        
 <div class="recipe-block col-lg-4" id="risotto"><a class="recipe-link" href="#">
 <img class="img-thumbnail" width="300"  src="imgs/risotto.jpg" alt="Risotto" width="200px" height="200px">
 <h2>Risotto</h2>
@@ -126,16 +138,7 @@
 </a>
 </div>
 
-<div class="recipe-block col-lg-4" id="pizza"><a class="recipe-link" href="#">
-<img class="img-thumbnail" width="300" src="imgs/pizza.jpg" alt="Plaat Pizza" width="200px" height="200px">
-<h2>Home made Pizza</h2>
-<ul class="recipe-details">
-    <li class="recipe-details-item time"><i class="far fa-clock cookingdetails"></i><span class="value">30</span><span class="detailstitle">Minutes</span></li>
-    <li class="recipe-details-item servings"><i class="fas fa-user-friends cookingdetails"></i><span class="value">2-3</span><span class="detailstitle">Serving</span></li>
-</ul>
-<p class="recipetext"> Super easy and fast recipe, this homemade pizza with tomato, onion, bellpepper, mozarella and ... </p>
-</a>
-</div>
+
 
 </div>
 </div>
@@ -154,16 +157,17 @@
 </a>
 </div>
 
-<div class="recipe-block col-lg-4" id="chili"><a class="recipe-link" href="chilisincarne.html">
-<img class="img-thumbnail chili" width="300" src="imgs/chili.jpg" alt="Chili sin carne" width="200px" height="200px">
-<h2>Chili Sin Carne</h2>
-<ul class="recipe-details">
-    <li class="recipe-details-item time"><i class="far fa-clock cookingdetails"></i><span class="value">50</span><span class="detailstitle">Minutes</span></li>
-    <li class="recipe-details-item servings"><i class="fas fa-user-friends cookingdetails"></i><span class="value">4</span><span class="detailstitle">Serving</span></li>
-</ul>
-<p class="recipetext">No meat in this chili... With sweet potato, onion, kidney beans and corn....</p>
-</a>
-</div>
+
+<div class="recipe-block col-lg-4" id="pizza"><a class="recipe-link" href="#">
+    <img class="img-thumbnail" width="300" src="imgs/pizza.jpg" alt="Plaat Pizza" width="200px" height="200px">
+    <h2>Home made Pizza</h2>
+    <ul class="recipe-details">
+        <li class="recipe-details-item time"><i class="far fa-clock cookingdetails"></i><span class="value">30</span><span class="detailstitle">Minutes</span></li>
+        <li class="recipe-details-item servings"><i class="fas fa-user-friends cookingdetails"></i><span class="value">2-3</span><span class="detailstitle">Serving</span></li>
+    </ul>
+    <p class="recipetext"> Super easy and fast recipe, this homemade pizza with tomato, onion, bellpepper, mozarella and ... </p>
+    </a>
+    </div>
 
 <div class="recipe-block col-lg-4" id="quornteriyaki"><a class="recipe-link" href="#">
 <img class="img-thumbnail quorn" width="300" src="imgs/quornteriyaki.jpg" alt="Quorn Teriyaki" width="200px" height="200px">
@@ -241,9 +245,9 @@
     </footer>
     <button class="btn btn-social"><a href="https://www.facebook.com/lisa.lenkens" target="_blank"><i class="fab fa-facebook fa-2x"></i></a></button>
     <button class="btn btn-social"><a href="https://www.instagram.com/palmtree_designs/?hl=nl" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></button>
-    <button class="btn btn-social"><a href="#" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></button>
-    <button class="btn btn-social"><a href="#" target="_blank"><i class="fab fa-github fa-2x"></i></a></button>
-    <p class="copyright"> &copy; 2019. Lisa's Recipes </p>
+    <button class="btn btn-social"><a href="https://www.linkedin.com/in/lenkenslisa/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></button>
+    <button class="btn btn-social"><a href="https://github.com/lisalenkens" target="_blank"><i class="fab fa-github fa-2x"></i></a></button>
+<p class="copyright"> &copy; 2019. Lisa's Recipes </p>
     </div>
 
    

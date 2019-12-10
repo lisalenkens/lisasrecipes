@@ -1850,3 +1850,30 @@ table {
 
 
 }
+
+
+
+
+
+/* Extra Large Screen HD  */
+
+
+
+@media screen and (min-width: 1800px) {
+
+  
+html, body {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-y: initial;
+  overflow-x: hidden;
+  
+}
+
+body {
+  overflow-x: hidden !important;
+  position: relative;
+}

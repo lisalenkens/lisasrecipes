@@ -858,6 +858,18 @@ table {
   font-size: 0.8rem;
 }
 
+#back-to-top {
+  position: fixed;
+  color: #2d6d3d !important;
+  top: auto;
+  left: auto;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 5%;
+  margin-right: 4%;
+  display: none;  
+} 
+
 
 }
 
@@ -897,17 +909,9 @@ table {
    
   }
 
+  
+
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

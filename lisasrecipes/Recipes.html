@@ -35,17 +35,18 @@
 
 </head>
 
-<body>
-  <nav class="navbar fixed-top navbar-expand-md bg-dark navbar-dark">
+
+<body data-spy="scroll" data-target=".navbar" data-offset="20"> 
+  <nav class="navbar fixed-top navbar-expand-md bg-dark navbar-dark" id="main-nav">
     <a class="navbar-brand" href="index.html"><img src="imgs/thyme.png" class="brandimage"> Lisa's Recipes </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <div class="collapse navbar-collapse collapsibleNavbar">
       <ul class="nav navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="index.html"> Home </a>
+          <a class="nav-link" href="index.html#Home"> Home </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="index.html#LatestRecipes"> Latest Recipes </a>
@@ -62,13 +63,15 @@
           <input type="text" placeholder="Search" name="search" class="searchinput">
         </form>
       </div>
-      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <!-- Modal -->
+      <div class="collapse navbar-collapse justify-content-end collapsibleNavbar">
         <ul class="nav navbar-nav justify-content-end">
           <a data-toggle="modal" data-target="#loginModal" id="linkfont" class="nav-link">
             <i class="fas fa-sign-in-alt"></i><span class="nav-item nav-link navbar-text"> Sign In </span>
           </a>
         </ul>
       </div>
+
     </div>
   </nav>
 
